@@ -1,0 +1,84 @@
+main{
+  line-height: 2rem;
+  text-align: justify;
+  color: white;
+  display:flex;
+  padding: 1.5em;
+  gap: 1.5rem;
+}
+
+#content{
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#content h2,h3, p{
+  margin-bottom: 1rem;
+}
+
+.gif-1{
+  width: 100%;
+}
+
+aside{
+  flex: 1;
+}
+
+aside img{
+  width: 12rem;
+}
+
+.card{
+  background-color: rgb(36, 33, 33);
+  padding: 1.5rem;
+}
+
+.anime-profile header{
+  text-align: center;
+}
+
+.anime-profile{
+  margin-bottom: 1rem;
+}
+
+.anime-profile table{
+  border-spacing: 0rem 1rem;
+}
+
+#rival-teams img{
+  width: 100%;
+}
+
+#tournaments img{
+  width: 100%;
+}
+
+
+@media screen and (max-width: 768px){
+  main{
+    flex-direction: column;
+  }
+
+  main aside{
+    align-self: stretch;
+  }
+
+}
+
+@media screen and (max-width: 425px){
+  main{
+    flex-direction: column;
+  }
+
+  main aside{
+    align-self: stretch;
+  }
+}
+
+
+
+
+
+
