@@ -18,10 +18,6 @@ main{
   margin-bottom: 1rem;
 }
 
-#story img{
-  width: 100%;
-}
-
 aside{
   flex: 1;
 }
@@ -39,22 +35,16 @@ aside img{
   text-align: center;
 }
 
-.anime-profile{
-  margin-bottom: 1rem;
-}
-
 .anime-profile table{
-  border-spacing: 0rem 1rem;
+  border-spacing: 0.5rem 0rem;
 }
 
-#rival-teams img{
+#story img,
+#rival-teams img,
+#tournaments img
+{
   width: 100%;
 }
-
-#tournaments img{
-  width: 100%;
-}
-
 
 @media screen and (max-width: 768px){
   main{
